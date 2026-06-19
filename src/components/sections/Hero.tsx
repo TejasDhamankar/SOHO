@@ -9,16 +9,14 @@ const Hero: React.FC<HeroProps> = ({ stats }) => {
   return (
     <section className="hero" id="top">
       <video
-        className="hero-video"
+        className="hero-video-bg"
         autoPlay
         muted
         loop
         playsInline
-        poster="/creatives/hero-drone-fallback.jpg"
-      >
-        <source src="/creatives/hero-drone-roha-valley.mp4" type="video/mp4" />
-      </video>
-      <div className="hero-overlay" />
+        src="/creatives/hero-drone-roha-valley.mp4"
+      />
+      <div className="hero-gradient-overlay" />
       <div className="hero-content">
         <p className="badge">Exclusive Helicopter Site Visit Available</p>
         <h1 className="heading-serif main-title">THE SOHO FARMS</h1>
