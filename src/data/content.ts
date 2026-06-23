@@ -8,9 +8,9 @@ import {
 } from "../types";
 
 export const contact: Contact = {
-  phone: "+91 98765 43210",
-  whatsapp: "+91 98765 43210",
-  email: "sales@thesohofarm.com",
+  phone: "7045427325",
+  whatsapp: "7045427325",
+  email: "Thesohofarms@gmail.com",
   maps:
     "https://www.google.com/maps/place/18%C2%B024'21.5%22N+73%C2%B007'21.7%22E/@18.405414,73.1224382,530m/data=!3m1!1e3!4m4!3m3!8m2!3d18.4059715!4d73.1227036"
 };

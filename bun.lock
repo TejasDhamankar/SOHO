@@ -5,19 +5,19 @@
     "": {
       "name": "the-soho-farm",
       "dependencies": {
+        "@hello-pangea/dnd": "^18.0.1",
+        "bcryptjs": "^3.0.3",
+        "mongoose": "^9.7.1",
         "next": "^16.2.7",
+        "next-auth": "^4.24.14",
         "react": "19.0.0",
         "react-dom": "19.0.0",
       },
       "devDependencies": {
-        "@hello-pangea/dnd": "^18.0.1",
         "@types/bcryptjs": "^3.0.0",
         "@types/node": "^22",
         "@types/react": "^19",
         "@types/react-dom": "^19",
-        "bcryptjs": "^3.0.3",
-        "mongoose": "^9.7.1",
-        "next-auth": "^4.24.14",
         "typescript": "^5",
       },
     },

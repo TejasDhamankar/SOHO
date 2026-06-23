@@ -42,9 +42,6 @@ const Header: React.FC = () => {
         <a href="#amenities" className="nav-link" onClick={closeMenu}>Lifestyle</a>
         <a href="#investment" className="nav-link" onClick={closeMenu}>Investment Edge</a>
         <a href="#forms" className="nav-link" onClick={closeMenu}>Enquire</a>
-        <a className="nav-link mobile-only-cta btn-primary" href={`tel:${contact.phone.replaceAll(" ", "")}`} onClick={closeMenu}>
-          Call Now
-        </a>
       </nav>
 
       <a className="header-cta btn-primary" href={`tel:${contact.phone.replaceAll(" ", "")}`}>

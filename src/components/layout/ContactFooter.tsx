@@ -12,9 +12,15 @@ const ContactFooter: React.FC = () => {
         </div>
         <div className="footer-contact">
           <h3 className="heading-sans">Contact</h3>
-          <p>{contact.phone}</p>
-          <p>{contact.whatsapp}</p>
-          <p>{contact.email}</p>
+          <p>
+            <a href={`tel:${contact.phone.replaceAll(" ", "")}`}>{contact.phone}</a>
+          </p>
+          <p>
+            <a href={`https://wa.me/${contact.whatsapp.replace(/\D/g, "")}`}>{contact.whatsapp}</a>
+          </p>
+          <p>
+            <a href={`mailto:${contact.email}`}>{contact.email}</a>
+          </p>
         </div>
         <div className="footer-links">
           <h3 className="heading-sans">Links</h3>
