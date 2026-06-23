@@ -10,7 +10,7 @@ const LocationSection: React.FC<LocationSectionProps> = ({ advantages }) => {
   return (
     <section className="location-section split-section">
       <div className="map-side">
-        <SectionTitle eyebrow="Project Location" title="Roha - Alibaug Region" />
+        <SectionTitle eyebrow="Project Location" title="Soho - Alibaug Region" />
         <div className="map-frame">
           <iframe
             title="The Soho Farms map"
@@ -28,7 +28,7 @@ const LocationSection: React.FC<LocationSectionProps> = ({ advantages }) => {
         </div>
       </div>
       <div className="advantages-side">
-        <SectionTitle title="Why Roha Is Becoming Preferred" />
+        <SectionTitle title="Why Soho Is Becoming Preferred" />
         <ul className="check-list">
           {advantages.map((item) => (
             <li key={item} className="heading-sans">{item}</li>
